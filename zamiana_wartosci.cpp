@@ -2,7 +2,7 @@
 #include <conio.h>
 
 using namespace std;
-void zamien(int a,int b){
+void zamien(int &a,int &b){
 int x;
 x= a;
 a=b;
@@ -14,7 +14,7 @@ int main()
 
 cin >> a >>b;
 cout <<"\n" << a <<" "<<b << "\n" ;
-zamien(&a,&b);
+zamien(a,b);
 cout << a <<" "<< b;
 getch();
     return 0;
