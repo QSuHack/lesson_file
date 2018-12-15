@@ -1,4 +1,4 @@
-// Selection_Sort(cpp).cpp: Okreúla punkt wejúcia dla aplikacji konsoli.
+// Selection_Sort(cpp).cpp: Okre≈ìla punkt wej≈ìcia dla aplikacji konsoli.
 //
 
 #include "stdafx.h"
@@ -15,24 +15,9 @@ int main()
 		t[i] = rand() % 100 + 1;
 		cout << t[i] << " ";
 	}
-/*	for (int i = 0; i < 20; i++)
-	{
-		int k = t[i];
-		for (int j = 0; j < 20; j++)
-		{
-			if (t[j] > k)
-			{
-				k = j;
-				swap(t[j], t[i]);
 
-			}
-
-		}
-	}
-	//dzia≥a ale to nie selection sort
-	*/
 	int k;
-	cout << "\n To sie stanie jak damy swapa w srodku petli xD ";
+	cout << "\n To sie stanie jak damy swapa w srodku petli ";
 	for (int i = 0; i <20; i++)
 	{
 		k = i;
@@ -41,7 +26,7 @@ int main()
 			if (t[j] < t[k])
 			{
 				k = j;
-				swap(t[k], t[i]);  // ten swap musi byÊ jednak poza pÍtlπ xD
+				swap(t[k], t[i]);  // ten swap musi byƒá jednak poza pƒôtlƒÖ xD
 			}
 		}
 
