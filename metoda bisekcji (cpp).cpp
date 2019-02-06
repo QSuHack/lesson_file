@@ -1,14 +1,15 @@
-// metoda bisekcji (cpp).cpp: Okreúla punkt wejúcia dla aplikacji konsoli.
+// metoda bisekcji (cpp).cpp: Okre≈ìla punkt wej≈ìcia dla aplikacji konsoli.
 //
 
-#include "stdafx.h"
+
 #include <iostream>
 #include <cmath>
 #include <conio.h>
 float f(float x){
 	return x*x*x - x + 1;
 }
-int bisekcja(float a,float  b, double epsylion){
+
+float bisekcja(float a,float  b, double epsylion){
 if (f((a+b)/2 ) == 0){
 	return (a + b) / 2;
 }
@@ -27,10 +28,11 @@ else{
 	return (a + b) / 2;
 }
 }
+
 int main()
 {
 	std::cout << bisekcja(-2, 2, 0.000001);
 	_getch();
-    return 0;
+    	return 0;
 }
 
