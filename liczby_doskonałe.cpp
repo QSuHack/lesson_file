@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-
+//Poszukiwanie liczb doskonałych
 using namespace std;
 
 int main()
