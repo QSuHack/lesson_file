@@ -1,4 +1,4 @@
-// Liczby_Skojarzone(Cpp).cpp: Okreúla punkt wejúcia dla aplikacji konsoli.
+// Liczby_Skojarzone(Cpp).cpp: Okre≈ìla punkt wej≈ìcia dla aplikacji konsoli.
 //
 
 #include "stdafx.h"
