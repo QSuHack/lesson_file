@@ -1,4 +1,4 @@
-// mniejszeniz100(cpp).cpp: Okreœla punkt wejœcia dla aplikacji konsoli.
+// mniejszeniz100(cpp).cpp: OkreÅ“la punkt wejÅ“cia dla aplikacji konsoli.
 //
 
 #include "stdafx.h"
@@ -14,21 +14,6 @@ int main()
 	int o = 0;
 	int po = 0;
 	ifstream plik("liczby3.txt");
-	while (po != 0)
-	{
-		plik >> x;
-		if (x< 1000)
-		{
-			po = x;
-		}
-	}
-	while (o!=0){
-		plik >> x;
-		if( x< 1000){
-			o = x;
-		}
-	}
-
 	while (!plik.eof())
 	{
 		plik >> x;
